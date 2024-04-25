@@ -1,9 +1,14 @@
 import Breadcrumbs from '../Components/Breadcrumbs';
 import Crumb from '../Components/Crumb';
+import styled from 'styled-components';
+
+const Wrapper = styled.div`
+  padding-top: 5rem;
+`;
 
 const Components = () => {
   return (
-    <div>
+    <Wrapper>
       <h2>Component Page</h2>
       <p>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur
@@ -18,7 +23,7 @@ const Components = () => {
           Sectionals
         </Crumb>
       </Breadcrumbs>
-    </div>
+    </Wrapper>
   );
 };
 
